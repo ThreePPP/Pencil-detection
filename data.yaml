@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['pencil']
+
+roboflow:
+  workspace: pencil-skisz
+  project: pencil-ljkbg
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pencil-skisz/pencil-ljkbg/dataset/1
