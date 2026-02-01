@@ -1,8 +1,8 @@
 
-pencil - v1 2025-02-18 3:33am
+pencil - v1 2025-02-26 9:41pm
 ==============================
 
-This dataset was exported via roboflow.com on February 17, 2025 at 8:40 PM GMT
+This dataset was exported via roboflow.com on February 26, 2025 at 9:42 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,13 +17,17 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 459 images.
+The dataset includes 1785 images.
 Pencil are annotated in YOLOv8 format.
 
 The following pre-processing was applied to each image:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
 * Resize to 640x640 (Stretch)
 
-No image augmentation techniques were applied.
+The following augmentation was applied to create 3 versions of each source image:
+* Random rotation of between -12 and +12 degrees
+* Random shear of between -6° to +6° horizontally and -6° to +6° vertically
+* Random exposure adjustment of between -7 and +7 percent
+* Salt and pepper noise was applied to 1.09 percent of pixels
 
 

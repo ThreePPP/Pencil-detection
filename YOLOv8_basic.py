@@ -7,13 +7,13 @@ print(ultralytics.checks())
 
 # 1. ฟังก์ชันตรวจจับผ่านกล้อง Webcam [cite: 307]
 def detectWebCam():
-    model = YOLO('yolov8n.pt') # โหลดโมเดลขนาดเล็กสุด (nano) [cite: 310]
+    model = YOLO('runs/detect/pencil_detection5/weights/best.pt') # โหลดโมเดลที่เทรนแล้ว
     # source=0 คือกล้อง Webcam, show=True คือแสดงผลทันที
     results = model.track(source=0, show=True)
 
 # 2. ฟังก์ชันตรวจจับผ่านวิดีโอ YouTube [cite: 260]
 def detectVideoURL():
-    model = YOLO('yolov8n.pt')
+    model = YOLO('runs/detect/pencil_detection5/weights/best.pt')
     # ตัวอย่างวิดีโอจากเอกสาร
     results = model.track(source="https://youtu.be/Ysr56eUoniM?t=5", show=True)
 
@@ -24,7 +24,7 @@ def detectsegment():
 
 # 4. ฟังก์ชันตรวจจับจากรูปภาพ [cite: 284]
 def detectImage():
-    model = YOLO('yolov8n.pt')
+    model = YOLO('runs/detect/pencil_detection5/weights/best.pt')
     results = model.track(source="imageTest.jpg", show=True) # ต้องมีไฟล์ภาพชื่อ imageTest.jpg ในโปรเจกต์
     time.sleep(5)
 

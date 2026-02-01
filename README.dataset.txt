@@ -1,5 +1,5 @@
-# pencil > 2025-02-18 3:33am
-https://universe.roboflow.com/pencil-skisz/pencil-ljkbg
+# pencil > 2025-02-26 9:41pm
+https://universe.roboflow.com/dj-rcnb7/pencil-91fd2
 
 Provided by a Roboflow user
 License: CC BY 4.0

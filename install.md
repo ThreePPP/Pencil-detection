@@ -1,0 +1,1 @@
+pip install ultralytics roboflow opencv-python python-telegram-bot

@@ -6,8 +6,8 @@ nc: 1
 names: ['pencil']
 
 roboflow:
-  workspace: pencil-skisz
-  project: pencil-ljkbg
+  workspace: dj-rcnb7
+  project: pencil-91fd2
   version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/pencil-skisz/pencil-ljkbg/dataset/1
+  url: https://universe.roboflow.com/dj-rcnb7/pencil-91fd2/dataset/1
